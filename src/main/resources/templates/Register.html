@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <!--&lt;!&ndash; Bootstrap CSS &ndash;&gt;-->
+    <!--<link rel="stylesheet" href="../bootstrap/css/bootstrap.css" >-->
+    <!--&lt;!&ndash; Optional JavaScript &ndash;&gt;-->
+    <!--&lt;!&ndash; jQuery first, then Popper.js, then Bootstrap JS &ndash;&gt;-->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>-->
+    <!--<script src="../bootstrap/js/bootstrap.js"></script>-->
+    <title>Registration Page</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <a class="navbar-brand" href="/"><h1>Customer Relationship Management</h1></a>
+</nav>
+
+<div class="container jumbotron">
+    <div class="container"> <h1 class="text-center">Register Here</h1> </div><hr>
+    <br><br>
+    <form action="/db/add" method="get">
+        <div class="form-row">
+            <div class="col-md-4 mb-3">
+                <label for="validationServer01">First name</label>
+                <input type="text" class="form-control" id="validationServer01" placeholder="First name" name="firstName" required>
+                <div class="valid-feedback">
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationServer02">Last name</label>
+                <input type="text" class="form-control " id="validationServer02" placeholder="Last name" name="lastName" required>
+            </div>
+            <div class="col-md-4 mb-3">
+                <label for="validationServerUsername">E-Mail</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" id="validationServerUsername" placeholder="E-Mail" name="email"  required>
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationServer03">City</label>
+                <input type="text" class="form-control" id="validationServer03" placeholder="City" name="city" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationServer04">State</label>
+                <input type="text" class="form-control" id="validationServer04" placeholder="State" name="state" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationServer05">Zip</label>
+                <input type="text" class="form-control" id="validationServer05" placeholder="Zip" name="zip" required>
+            </div>
+        </div>
+        <div>
+            <span>Gender </span> &nbsp;
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline1" name="gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline1">Male</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline2" name="gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline2">Female</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" id="customRadioInline3" name="gender" class="custom-control-input">
+                <label class="custom-control-label" for="customRadioInline3">Other</label>
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </form>
+</div>
+
+
+
+</body>
+</html>
