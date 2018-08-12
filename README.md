@@ -1,5 +1,5 @@
-# Customer-Relationship-Management
+# Customer Relationship Management
 
-Customer relationship management application using Spring and Hibernate
+Simple Web Application which stores information of each customer along with the items they possess. 
 
-Testing synchronization
+

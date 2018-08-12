@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <title>Customer Details</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-light navbar-light justify-content-center">
+    <h1 class="display-3">Customer Details</h1>
+</nav>
+
+<section class="jumbotron text-center">
+    <div class="container">
+                <h1 class="display-4" th:text="${customer.firstName} + ' ' + ${customer.lastName}">Name</h1>
+                <p class="lead" th:text="${customer.email}">E-Mail</p>
+                <hr class="my-4">
+                <span class="lead" th:text="${customer.city}">City</span><br>
+                <span class="lead" th:text="${customer.state}">State</span><br>
+                <span class="lead" th:text="${customer.zip}">Zip</span><br><br>
+                <a class="btn btn-dark btn-lg" href="/" role="button">Main Page</a>
+    </div>
+</section>
+</body>
+</html>
