@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a32b300-0da9-4d1b-9bbf-cb8211302d65" name="Default" comment="Added a ItemDetail page&#10;&#10;- Retrieves item details utilizing a REST service">
-      <change afterPath="$PROJECT_DIR$/readme/spring-3-logo-png-transparent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -141,8 +139,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="196">
-                <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+              <first_editor relative-caret-position="326">
+                <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -622,41 +620,6 @@
               <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
               <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Customer-Relationship-Management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Customer-Relationship-Management" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -673,7 +636,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534103141935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534103273590" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -793,7 +756,7 @@
       <workItem from="1533582705608" duration="822000" />
       <workItem from="1533586281212" duration="594000" />
       <workItem from="1533589831678" duration="93000" />
-      <workItem from="1534095836599" duration="5698000" />
+      <workItem from="1534095836599" duration="5833000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1532073099827</created>
@@ -855,7 +818,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62863000" />
+    <option name="totallyTimeSpent" value="62998000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -870,7 +833,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.15735768" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.15735768" />
       <window_info id="Structure" order="1" sideWeight="0.50248754" side_tool="true" weight="0.1734694" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -880,7 +843,7 @@
       <window_info id="Web" order="7" sideWeight="0.5005562" side_tool="true" weight="0.16111708" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4593088" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4593088" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1157,8 +1120,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="196">
-            <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <first_editor relative-caret-position="326">
+            <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

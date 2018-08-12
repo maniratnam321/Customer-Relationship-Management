@@ -43,7 +43,7 @@ gradle build
 
 ### Deployment
 
-#####Option 1: Deploy the JAR file directly
+####Option 1: Deploy the JAR file directly
 
 Once the build is complete, the deployable jar file is located at:
 
@@ -59,7 +59,7 @@ Use the following command to run the application:
 java -jar build/libs/gs-serving-web-content-0.1.0.jar
 ```
 
-#####Option 2: Run the project from Intellij IDEA
+####Option 2: Run the project from Intellij IDEA
 
 1. Open the project using Intellij IDEA
 2. Set the main class as mvc.Application in the configuration
