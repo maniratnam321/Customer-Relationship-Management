@@ -89,7 +89,7 @@
         <counts>
           <entry key="html" value="106" />
           <entry key="java" value="208" />
-          <entry key="md" value="2022" />
+          <entry key="md" value="2026" />
           <entry key="txt" value="135" />
         </counts>
       </usages-collector>
@@ -97,7 +97,7 @@
         <counts>
           <entry key="HTML" value="106" />
           <entry key="JAVA" value="208" />
-          <entry key="Markdown" value="2022" />
+          <entry key="Markdown" value="2026" />
           <entry key="PLAIN_TEXT" value="135" />
         </counts>
       </usages-collector>
@@ -139,8 +139,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="326">
-                <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+              <first_editor relative-caret-position="144">
+                <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -636,7 +636,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534103273590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534103372919" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -756,7 +756,7 @@
       <workItem from="1533582705608" duration="822000" />
       <workItem from="1533586281212" duration="594000" />
       <workItem from="1533589831678" duration="93000" />
-      <workItem from="1534095836599" duration="5833000" />
+      <workItem from="1534095836599" duration="5933000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1532073099827</created>
@@ -818,7 +818,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62998000" />
+    <option name="totallyTimeSpent" value="63098000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1120,8 +1120,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="326">
-            <caret line="61" column="4" lean-forward="true" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+          <first_editor relative-caret-position="144">
+            <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
