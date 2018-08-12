@@ -1,11 +1,8 @@
 package mvc.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import java.util.Date;
-
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 @Entity
@@ -27,8 +24,11 @@ public class Customer {
 
     private Integer zip;
 
-    public Customer() {
+    @OneToMany(mappedBy = "customer")
+    private List<ItemEntry> list;
 
+    public Customer() {
+        list = new ArrayList<>();
     }
 
     public Customer(String firstName, String lastName, String email, String city, String state, Integer zip) {

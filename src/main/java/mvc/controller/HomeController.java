@@ -15,4 +15,7 @@ public class HomeController {
     public String showRegister() {
         return "Register";
     }
+
+    @RequestMapping(value = "/getItemInfo")
+    public String showItemInfo() { return "DummyTestPage"; }
 }

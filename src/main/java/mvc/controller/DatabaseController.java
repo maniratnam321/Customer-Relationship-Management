@@ -48,4 +48,13 @@ public class DatabaseController {
         return "Detail";
     }
 
+    @GetMapping(path = "/addItems/{id}")
+    public String addItems( Model model, @PathVariable Integer id) {
+        Optional<Customer> customerOptional = customerRepository.findById(id);
+        Customer customer = customerOptional.get();
+        model.addAttribute("customer", customer);
+        return "AddItemPage";
+    }
+
 }
+

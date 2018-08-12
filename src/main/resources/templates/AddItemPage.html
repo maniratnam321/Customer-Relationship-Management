@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <title>Customer Relationship Management</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+    <a class="navbar-brand" href="#"><h1>Customer Relationship Management</h1></a>
+</nav>
+
+
+<section class="jumbotron">
+    <div clas="row">
+        <div class="container col-1">
+            <h1 class="display-4" th:text="${customer.firstName} + ' ' + ${customer.lastName}">Name</h1>
+            <p class="lead" th:text="${customer.email}">E-Mail</p>
+            <hr class="my-4">
+            <span class="lead" th:text="${customer.city}">City</span><br>
+            <span class="lead" th:text="${customer.state}">State</span><br>
+            <span class="lead" th:text="${customer.zip}">Zip</span><br><br>
+        </div>
+        <div class="container col-2">
+            <h3 class="display-2">Select Items</h3>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Item Code</span>
+                </div>
+                <input type="text" class="col-sm-2 col-form-label" id="id_number">
+                &nbsp;<button type="button" class="btn btn-primary" onclick="loadCard()">Get Details</button>
+            </div>
+            <div class="card" style="width: 18rem;">
+
+                <div class="card-body">
+                    <h5 class="card-title" id="card_title">-</h5>
+                    <h6 class="card-subtitle mb-2 text-muted" id="card_subtitle">-</h6>
+                    <p class="card-text" id="card_text">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    function loadCard() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                var item = JSON.parse(this.responseText);
+                document.getElementById("card_title").innerHTML = item.name;
+                document.getElementById("card_subtitle").innerHTML = "Weight: " + item.weight;
+                document.getElementById("card_text").innerHTML = item.description;
+            }
+        };
+        var id = document.getElementById("id_number").value;
+        console.log("Value: " + id);
+        var url = "/getInfo?id=" + id;
+        xhttp.open("GET", url, true);
+        xhttp.send();
+    }
+</script>
+</body>
+</html>
